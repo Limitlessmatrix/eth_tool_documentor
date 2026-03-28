@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Cable Doc Tech",
+    "slug": "cable-doc-tech",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.cabledoc"
+    },
+    "android": {
+      "package": "com.example.cabledoc"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow access to save cable documentation photos.",
+          "cameraPermission": "Allow camera access to capture cable documentation photos."
+        }
+      ],
+      "expo-location"
+    ]
+  }
+}
